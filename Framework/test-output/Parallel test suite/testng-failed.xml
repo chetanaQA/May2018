@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="10" guice-stage="DEVELOPMENT" name="Failed suite [Parallel test suite]" parallel="methods">
+  <test thread-count="10" name="PIM(failed)" parallel="methods">
+    <classes>
+      <class name="TestScripts.TC2">
+        <methods>
+          <include name="Addemployee"/>
+        </methods>
+      </class> <!-- TestScripts.TC2 -->
+    </classes>
+  </test> <!-- PIM(failed) -->
+</suite> <!-- Failed suite [Parallel test suite] -->
